@@ -1,3 +1,20 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    /* background-image: url(../imgs/sun.jpg); */
+    /* background-image: url(../imgs/sun.jpg) no-repeat center center fixed; */
+    /* -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
 footer {
     background-color: black;
     min-height: 3rem;

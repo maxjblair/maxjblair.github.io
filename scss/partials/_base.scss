@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $font-size-normal;
+}
+
+h2 {
+  font-size: $font-size-xl;
+  margin: $margin-xl 0;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.fade-in-text {
+  display: inline-block;
+  color: $white;
+  animation: fadeIn linear 5s;
+  -webkit-animation: fadeIn linear 5s;
+  -moz-animation: fadeIn linear 5s;
+  -o-animation: fadeIn linear 5s;
+  -ms-animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.vsLightBlue {
+  color: $vsLightBlue;
+}
+
+.vsDarkBlue {
+  color: $vsDarkBlue;
+}
+
+.vsOrange {
+  color: $vsOrange;
+}
+
+.vsGray {
+  color: $vsGray;
+}
+
+.vsBlue1 {
+  color: $vsBlue1;
+}
+.vsBlue2 {
+	color: $vsBlue2;
+}
+.vsBlue3 {
+	color: $vsBlue3;
+}
+.vsBlue4 {
+	color: $vsBlue4;
+}
+.vsBlue5 {
+	color: $vsBlue5;
+}
+.vsBlue6 {
+	color: $vsBlue6;
+}
+.vsBlue7 {
+	color: $vsBlue7;
+}
+
+.vsGray1 {
+	color: $vsGray1;
+}
+.vsGray2 {
+	color: $vsGray2;
+}
+.vsGray3 {
+	color: $vsGray3;
+}
+.vsGray4 {
+	color: $vsGray4;
+}
+.vsGray5 {
+	color: $vsGray5;
+}
+.vsGray6 {
+	color: $vsGray6;
+}
+.vsGray7 {
+	color: $vsGray7;
+}
+.vsGray8 {
+	color: $vsGray8;
+}
+.vsGray9 {
+	color: $vsGray9;
+}
+.vsGray10 {
+	color: $vsGray10;
+}
+
+.vsGreen1 {
+	color: $vsGreen1;
+}
+.vsGreen2 {
+	color: $vsGreen2;
+}
+.vsGreen3 {
+	color: $vsGreen3;
+}
+.vsGreen4 {
+	color: $vsGreen4;
+}
+
+.vsOrange1 {
+	color: $vsOrange1;
+}
+.vsOrange2 {
+	color: $vsOrange2;
+}
+.vsOrange3 {
+	color: $vsOrange3;
+}
+.vsOrange4 {
+	color: $vsOrange4;
+}
+.vsOrange5 {
+	color: $vsOrange5;
+}
+.vsOrange6 {
+	color: $vsOrange6;
+}
+.vsOrange7 {
+	color: $vsOrange7;
+}
+
+span[class^='vs'] {
+  font-family: Consolas;
+}
+
+.indent-left {
+  margin-left: 32px;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,AAAC,CACN,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,GAAG,CAClB",
+    "sources": [
+        "../../scss/partials/project.scss"
+    ],
+    "names": [],
+    "file": "project.min.css"
+}

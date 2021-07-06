@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,8PA6BP;CAAC",
+    "sources": [
+        "../../scss/partials/VSColorsTemp.scss"
+    ],
+    "names": [],
+    "file": "VSColorsTemp.css"
+}

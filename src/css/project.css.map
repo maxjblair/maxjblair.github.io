@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,GAAG;CAClB",
+    "sources": [
+        "../../scss/partials/project.scss"
+    ],
+    "names": [],
+    "file": "project.css"
+}
